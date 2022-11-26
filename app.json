@@ -1,0 +1,62 @@
+{
+  "expo": {
+    "name": "Food_App",
+    "slug": "Food_App",
+    "version": "1.0.1",
+    "orientation": "portrait",
+    "icon": "./src/assets/images/Logo.png",
+    "splash": {
+      "image": "./assets/splash9.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.maffin.app",
+      "googleServicesFile": "./src/assets/GoogleServices/GoogleService-Info.plist",
+      "buildNumber": "1"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "googleServicesFile": "./src/assets/GoogleServices/google-services.json",
+      "package": "com.maffinFoodApp"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "config": {
+        "firebase": {
+          "apiKey": "AIzaSyAfUrsKP8-KNF45uRk7goODp1jihrIncA4",
+          "authDomain": "maffinapp-815e3.firebaseapp.com",
+          "projectId": "maffinapp-815e3",
+          "storageBucket": "maffinapp-815e3.appspot.com",
+          "messagingSenderId": "301983727799",
+          "appId": "1:301983727799:web:def39bf25e869ebb74cd32",
+          "measurementId": "G-44E9131C2B"
+        }
+      }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "41f43b33-63fd-4c8f-a493-943727d0e4ad"
+      }
+    }
+  },
+  "plugins": [
+    [
+      "@stripe/stripe-react-native",
+      {
+        "merchantIdentifier": "jhjhfgfsdx ",
+        "enableGooglePay": true
+      }
+    ]
+  ]
+}
