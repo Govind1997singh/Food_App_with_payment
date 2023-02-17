@@ -1,0 +1,81 @@
+{
+  "_args": [
+    [
+      "react-native-material-buttons@0.6.0",
+      "/Users/mac101/Desktop/Riya/antiquerubyreactnative-v-2.0-12-4-2019"
+    ]
+  ],
+  "_from": "react-native-material-buttons@0.6.0",
+  "_id": "react-native-material-buttons@0.6.0",
+  "_inBundle": false,
+  "_integrity": "sha512-k/7hqGQJABWvU2wr61aOBuuLp7rrn26a65IUlJU1PPbfVwEJ10v0atxKsY4E0z6VO3m1DAWaAooN82BWmBITGQ==",
+  "_location": "/react-native-material-buttons",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "react-native-material-buttons@0.6.0",
+    "name": "react-native-material-buttons",
+    "escapedName": "react-native-material-buttons",
+    "rawSpec": "0.6.0",
+    "saveSpec": null,
+    "fetchSpec": "0.6.0"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/react-native-material-buttons/-/react-native-material-buttons-0.6.0.tgz",
+  "_spec": "0.6.0",
+  "_where": "/Users/mac101/Desktop/Riya/antiquerubyreactnative-v-2.0-12-4-2019",
+  "author": {
+    "name": "Alexander Nazarov",
+    "email": "n4kz@n4kz.com"
+  },
+  "bugs": {
+    "url": "https://github.com/n4kz/react-native-material-buttons/issues"
+  },
+  "dependencies": {
+    "prop-types": "^15.5.9",
+    "react-native-material-ripple": "^0.9.1"
+  },
+  "description": "Material buttons",
+  "devDependencies": {
+    "babel-eslint": "^10.0.0",
+    "eslint": "^6.5.0",
+    "eslint-plugin-react": "^7.0.0"
+  },
+  "files": [
+    "index.js",
+    "src/*",
+    "license.txt",
+    "readme.md"
+  ],
+  "homepage": "https://github.com/n4kz/react-native-material-buttons#readme",
+  "keywords": [
+    "react",
+    "react-component",
+    "react-native",
+    "ios",
+    "android",
+    "raised",
+    "flat",
+    "button",
+    "ripple",
+    "material"
+  ],
+  "license": "BSD-3-Clause",
+  "main": "index.js",
+  "name": "react-native-material-buttons",
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/n4kz/react-native-material-buttons.git"
+  },
+  "scripts": {
+    "lint": "eslint src example/app.js example/index.js"
+  },
+  "version": "0.6.0"
+}
